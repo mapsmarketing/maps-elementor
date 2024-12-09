@@ -1,0 +1,46 @@
+.elementor-widget-maps-documents .maps-documents {
+  display: flex;
+  flex-direction: column;
+}
+
+.elementor-widget-maps-documents .elementor-accordion-item {
+  border: none;
+}
+
+.elementor-widget-maps-documents .elementor-tab-content__wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  align-items: flex-start;
+}
+
+.elementor-widget-maps-documents .type-maps_document {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.elementor-widget-maps-documents .elementor-accordion-icon-right {
+  float: right;
+}
+
+.elementor-widget-maps-documents .elementor-tab-content {
+  display: none;
+  padding: 10px;
+}
+
+.elementor-widget-maps-documents .elementor-tab-title {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.elementor-widget-maps-documents .elementor-tab-title .elementor-accordion-icon-closed,
+.elementor-widget-maps-documents .elementor-tab-title.elementor-active .elementor-accordion-icon-opened {
+  display: block;
+}
+
+.elementor-widget-maps-documents .elementor-tab-title:not(.elementor-active) .elementor-accordion-icon-opened,
+.elementor-widget-maps-documents .elementor-tab-title.elementor-active .elementor-accordion-icon-closed {
+  display: none;
+}

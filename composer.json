@@ -1,0 +1,34 @@
+{
+  "repositories": [
+    {
+      "type": "package",
+      "package": {
+        "name": "froger-me/wp-package-updater",
+        "version": "dev-master",
+        "source": {
+          "url": "https://github.com/froger-me/wp-package-updater.git",
+          "type": "git",
+          "reference": "master"
+        }
+      }
+    }
+  ],
+  "require": {
+    "froger-me/wp-package-updater": "dev-master",
+    "johngrogg/ics-parser": "^3.4",
+    "yahnis-elsts/plugin-update-checker": "^5.5",
+    "sabre/vobject": "^4.5",
+    "simshaun/recurr": "^5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "MAPSElementor\\": "./"
+    },
+    "classmap": [
+      "vendor/froger-me/wp-package-updater/class-wp-package-updater.php"
+    ],
+    "exclude-from-classmap": [
+      "node_modules/"
+    ]
+  }
+}

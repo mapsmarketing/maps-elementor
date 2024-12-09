@@ -1,0 +1,33 @@
+/* .elementor-widget-maps-carousel .maps-carousel {
+  overflow: hidden;
+}
+
+.elementor-widget-maps-carousel .swiper-wrapper {
+  width:20000px;
+} */
+
+.elementor-widget-maps-carousel .swiper-button {
+  display: flex;
+  margin-top: 0;
+  width: auto;
+  height: auto;
+  transform: translateY(-50%);
+  background: none;
+}
+
+.elementor-widget-maps-carousel .swiper-button:after {
+  display: none;
+}
+
+.elementor-widget-maps-carousel .swiper-pagination {
+  position: relative;
+  bottom: inherit;
+}
+
+/* .elementor-widget-maps-carousel .swiper-container-autoheight .swiper-slide {
+  height: auto !important;
+} */
+
+/* .elementor-widget-maps-carousel .maps-carousel__slides {
+  overflow: visible !important;
+} */

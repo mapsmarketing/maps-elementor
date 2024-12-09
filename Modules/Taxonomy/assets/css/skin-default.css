@@ -1,0 +1,23 @@
+.maps-taxonomy {
+  display: grid;
+  flex-wrap: wrap;
+}
+
+.maps-taxonomy__link {
+  display: flex;
+  flex-direction: column;
+}
+
+.maps-taxonomy__link__attachment {
+  height: 300px !important;
+  object-fit: contain;
+  width: 100%;
+}
+
+.maps-taxonomy__link__caption {
+  display: block;
+  text-align: center;
+  padding: 1.5rem 1rem;
+  border-radius: 0 0 4px 4px;
+  transition: background-color 0.5s;
+}

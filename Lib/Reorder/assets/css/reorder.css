@@ -1,0 +1,11 @@
+#sortable {
+  list-style: none;
+  padding: 0;
+}
+
+#sortable li {
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin: 5px 0;
+  cursor: move;
+}

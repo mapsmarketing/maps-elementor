@@ -1,0 +1,88 @@
+.maps-cta-accordions--default {
+  flex-wrap: nowrap;
+}
+
+.maps-cta-accordions--default .maps-cta-accordions__slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transition:
+    background 0.5s,
+    width 0.5s;
+}
+
+.maps-cta-accordions--default .maps-cta-accordions__slide:after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.3);
+  transition: background 0.5s;
+}
+
+.maps-cta-accordions--default .maps-cta-accordions__slide__container {
+  padding: 16px;
+  max-height: 136px;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+  text-align: center;
+  transition: max-height 0.5s;
+}
+
+.maps-cta-accordions--default .maps-cta-accordions__slide__icon {
+  line-height: 1;
+  margin-bottom: 16px;
+}
+
+.maps-cta-accordions--default h3.maps-cta-accordions__slide__title {
+  text-align: center;
+}
+
+.maps-cta-accordions--default h3.maps-cta-accordions__slide__title:after {
+  content: '';
+  display: block;
+  margin: 16px auto;
+  width: 60px;
+}
+
+.maps-cta-accordions--default .maps-cta-accordions__slide__description {
+  opacity: 0;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  text-align: center;
+  transition: opacity 0.5s;
+}
+
+.maps-cta-accordions--default .maps-cta-accordions__slide__btn {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.maps-cta-accordions--default .maps-cta-accordions__slide:hover {
+  width: 100% !important;
+}
+
+.maps-cta-accordions--default .maps-cta-accordions__slide:hover .maps-cta-accordions__slide__container {
+  max-height: 100%;
+}
+
+.maps-cta-accordions--default .maps-cta-accordions__slide:hover .maps-cta-accordions__slide__description {
+  opacity: 1;
+}
+
+/* @media (max-width: 767px) {
+  .maps-cta-accordions--default {
+    display: block;
+  }
+
+  .maps-cta-accordions--default .maps-cta-accordions__slide {
+    width: 100% !important;
+    height: 300px;
+  }
+} */

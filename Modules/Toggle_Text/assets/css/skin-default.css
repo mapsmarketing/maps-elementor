@@ -1,0 +1,32 @@
+.elementor-widget-maps-toggle-text .maps-toggle-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.elementor-widget-maps-toggle-text .maps-toggle-text__content {
+  position: relative;
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out;
+}
+
+.elementor-widget-maps-toggle-text .maps-toggle-text__content:after {
+  display: block;
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(180deg, transparent 0%, rgba(255, 255, 255, 0.8) 100%);
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+.elementor-widget-maps-toggle-text .maps-toggle-text__content.on {
+  max-height: 100vh !important;
+}
+
+.elementor-widget-maps-toggle-text .maps-toggle-text__content.on:after {
+  opacity: 0;
+  visibility: hidden;
+}

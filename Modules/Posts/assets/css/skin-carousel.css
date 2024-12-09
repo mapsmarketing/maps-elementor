@@ -1,0 +1,11 @@
+.elementor-posts--skin-carousel .swiper-button {
+  width: auto;
+  height: auto;
+  background: none;
+}
+
+.elementor-posts--skin-carousel .swiper-pagination {
+  position: relative;
+  bottom: inherit;
+  margin-top: 50px;
+}

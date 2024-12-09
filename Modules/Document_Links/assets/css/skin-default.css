@@ -1,0 +1,13 @@
+.maps-documents-links {
+  flex-wrap: wrap;
+}
+
+.maps-documents-links .maps-documents-links__link {
+  display: flex;
+  align-items: center;
+}
+
+.maps-documents-links .maps-documents-links__link--right {
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}

@@ -1,0 +1,41 @@
+{
+  "name": "maps-elementor",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "prettier": "prettier --write 'modules/**/*.{js,css,php}'",
+    "lint": "eslint . --fix",
+    "dev": "webpack --mode=development",
+    "build": "webpack --mode=production"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.24.6",
+    "@babel/core": "^7.24.6",
+    "@babel/preset-env": "^7.24.6",
+    "@prettier/plugin-php": "^0.21.0",
+    "babel-loader": "^8.3.0",
+    "babel-preset-minify": "^0.5.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "compression-webpack-plugin": "^10.0.0",
+    "css-loader": "^6.11.0",
+    "css-minimizer-webpack-plugin": "^4.2.2",
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-webpack-plugin": "^4.2.0",
+    "mini-css-extract-plugin": "^2.9.0",
+    "prettier": "^3.0.3",
+    "terser-webpack-plugin": "^5.3.10",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "dependencies": {
+    "jquery": "^3.7.1",
+    "slick-carousel": "^1.8.1",
+    "sticky-sidebar-v2": "^1.1.1"
+  }
+}
